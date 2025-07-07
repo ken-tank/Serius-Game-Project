@@ -101,3 +101,4 @@ InitTestScene*.unity*
 /FMOD/.cache/
 !/FMOD/Build/
 !/FMOD/Assets/
+!*.gitkeep
