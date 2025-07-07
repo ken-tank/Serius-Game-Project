@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7959589021349171730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675132995225346191}
+  - component: {fileID: 2627926825565953625}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675132995225346191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7959589021349171730}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2627926825565953625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7959589021349171730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc7ddeef6b8cec47990382a56d8ca96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input_navigation:
+    m_Name: Input_navigation
+    m_Type: 0
+    m_ExpectedControlType: Vector2
+    m_Id: 331301ab-23ab-4592-bd46-d7c3d9a6d437
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: WASD
+      m_Id: b5ac24ad-7653-4576-b6c8-ce79995e2b32
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 4
+    - m_Name: Up
+      m_Id: a01f14a8-3427-4f24-b528-7c6de1aeb907
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: Down
+      m_Id: 588352e6-fae8-4c23-b8a8-7cfc30c31bae
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: Left
+      m_Id: 4a5b84de-0546-49cb-8fd6-b02357b15183
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: Right
+      m_Id: b47e4e9f-14d4-45ad-8f5f-853e62f5444f
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: Arrow
+      m_Id: 8f1cea66-cae0-4fde-8b46-4bd2d933d118
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 4
+    - m_Name: up
+      m_Id: c51f6d54-1d37-4f91-a1b3-69bbe8dcc980
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 12e58345-5321-47ca-83d1-4291f7915746
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: left
+      m_Id: cfe05550-c0c5-4547-87ea-7e772375219b
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 2233c3c5-500e-4d2f-be14-e82ccdb35be4
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 8
+    - m_Name: 
+      m_Id: 8b685fb9-086c-48e5-9b8c-0d11d1f7e389
+      m_Path: <Gamepad>/dpad
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 5dc6bbde-ecb2-43b5-99a7-711e379bc5b0
+      m_Path: <Gamepad>/leftStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_navigation
+      m_Flags: 0
+    m_Flags: 0
+  input_submit:
+    m_Name: Input_submit
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: c89766c6-5697-4517-9572-78eae0fccbc2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7bba0124-261a-46cc-a9e2-0cbe24aa5c5d
+      m_Path: '*/{Submit}'
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_submit
+      m_Flags: 0
+    m_Flags: 0
+  input_cancel:
+    m_Name: Input_cancel
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: fbaa212e-cfc0-494f-a065-f879125ea2f8
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 82e97864-9009-4724-85f4-7cb8e8c98e21
+      m_Path: '*/{Cancel}'
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input_cancel
+      m_Flags: 0
+    m_Flags: 0

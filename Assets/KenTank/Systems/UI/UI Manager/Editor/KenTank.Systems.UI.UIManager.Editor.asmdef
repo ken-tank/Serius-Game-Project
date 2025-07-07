@@ -1,0 +1,19 @@
+{
+    "name": "KenTank.Systems.UI.UIManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5926836a335f7a74fa46a2757b1e2ea3",
+        "GUID:7e4d442958aaae047a0a0bf24dacf0b5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "KenTank.Core.SettingsManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:51c19f1dfbd39aa4597a57dd1e0c2b4b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

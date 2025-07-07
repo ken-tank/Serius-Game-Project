@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{eebc435f-ce09-467c-a30a-ee9dad8db36a}">
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<relationship name="items">
+			<destination>{9136eaa0-5fa4-433f-b98e-35711b92bfcd}</destination>
+		</relationship>
+	</object>
+</objects>

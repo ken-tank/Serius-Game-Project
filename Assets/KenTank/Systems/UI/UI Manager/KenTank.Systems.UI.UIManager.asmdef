@@ -1,0 +1,21 @@
+{
+    "name": "KenTank.Systems.UI.UIManager",
+    "rootNamespace": "",
+    "references": [
+        "CustomInspector",
+        "Unity.TextMeshPro",
+        "FMODUnity",
+        "KenTank.Utilities.CSharpExtensions",
+        "DOTween.Modules",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

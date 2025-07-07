@@ -1,0 +1,18 @@
+{
+    "name": "KenTank.Systems.Audio.BGMManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c07b4c0a29dc6164d8e2aa5363b13bc4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
