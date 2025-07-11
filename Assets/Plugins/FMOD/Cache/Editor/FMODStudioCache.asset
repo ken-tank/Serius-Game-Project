@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638874781808135599
+  lastModified: 638878288839642107
   FileSizes:
   - Name: Mobile
     Value: 506
   Exists: 1
+--- !u!114 &-7808295280457468040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music2
+  Guid:
+    Data1: -1079827445
+    Data2: 1299410187
+    Data3: 534089148
+    Data4: 368286576
+  Banks:
+  - {fileID: 8362427029275225249}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 90352
 --- !u!114 &-7136643091847807318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,10 +62,10 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638874781808155761
+  lastModified: 638878288839842698
   FileSizes:
   - Name: Mobile
-    Value: 506
+    Value: 101952
   Exists: 1
 --- !u!114 &-6445653846006734877
 MonoBehaviour:
@@ -64,6 +91,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-5257416983581687717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Warning1
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Warning1
+  Guid:
+    Data1: -707921041
+    Data2: 1269973276
+    Data3: 462246798
+    Data4: -627704551
+  Banks:
+  - {fileID: -7136643091847807318}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1225
 --- !u!114 &-3909685191114545657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,10 +133,10 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638874786330760015
+  lastModified: 638878292455594283
   FileSizes:
   - Name: Mobile
-    Value: 1510
+    Value: 1752
   Exists: 1
 --- !u!114 &-3164512305413217578
 MonoBehaviour:
@@ -99,11 +153,38 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Dialog.bank
   Name: Dialog
   StudioPath: bank:/Dialog
-  lastModified: 638874781808170798
+  lastModified: 638878288839275839
   FileSizes:
   - Name: Mobile
     Value: 506
   Exists: 1
+--- !u!114 &-1012663515754435359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music1
+  Guid:
+    Data1: -1531207314
+    Data2: 1163761404
+    Data3: -967643998
+    Data4: -755008561
+  Banks:
+  - {fileID: 8362427029275225249}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 124235
 --- !u!114 &-768314123924829159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +230,11 @@ MonoBehaviour:
   - {fileID: -7136643091847807318}
   EditorEvents:
   - {fileID: 5916782241292134906}
+  - {fileID: 7838524560970802725}
+  - {fileID: -5257416983581687717}
+  - {fileID: 6979877590260181519}
+  - {fileID: -1012663515754435359}
+  - {fileID: -7808295280457468040}
   EditorParameters:
   - {fileID: 8733996891324776856}
   - {fileID: -768314123924829159}
@@ -160,10 +246,20 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3909685191114545657}
   cacheVersion: 131848
-  cacheTime: 638874786330760015
+  cacheTime: 638878292473615755
   SerializableEventsDict:
   - key: snapshot:/Music/Reduce Volume
     index: 0
+  - key: event:/UI/Button1
+    index: 1
+  - key: event:/UI/Warning1
+    index: 2
+  - key: event:/UI/Button2
+    index: 3
+  - key: event:/Music/Music1
+    index: 4
+  - key: event:/Music/Music2
+    index: 5
 --- !u!114 &3725267978510578925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,11 +350,65 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638874786330749979
+  lastModified: 638878292455584255
   FileSizes:
   - Name: Mobile
     Value: 5034
   Exists: 1
+--- !u!114 &6979877590260181519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Button2
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Button2
+  Guid:
+    Data1: -1315333298
+    Data2: 1109824443
+    Data3: 1804341151
+    Data4: -857502055
+  Banks:
+  - {fileID: -7136643091847807318}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1750
+--- !u!114 &7838524560970802725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Button1
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Button1
+  Guid:
+    Data1: -1898615355
+    Data2: 1109998469
+    Data3: -723093859
+    Data4: -997586992
+  Banks:
+  - {fileID: -7136643091847807318}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
 --- !u!114 &8362427029275225249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,10 +424,10 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638874781808120461
+  lastModified: 638878292473615755
   FileSizes:
   - Name: Mobile
-    Value: 506
+    Value: 5636768
   Exists: 1
 --- !u!114 &8733996891324776856
 MonoBehaviour:

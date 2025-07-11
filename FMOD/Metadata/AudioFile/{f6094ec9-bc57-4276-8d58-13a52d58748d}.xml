@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f6094ec9-bc57-4276-8d58-13a52d58748d}">
+		<property name="assetPath">
+			<value>Music/Casual Music Loop 18.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>90.352947845804991</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{21145dc6-5bb6-4d10-b5ac-6ea9c3e16991}</destination>
+		</relationship>
+	</object>
+</objects>

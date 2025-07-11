@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 9ab136fe6ad3b9b458c25b1753095f85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7786999292595810816
+    second: judul_game-removebg-preview_0
+  - first:
+      213: 1149341497474084651
+    second: judul_game-removebg-preview_1
+  - first:
+      213: -1842598737701090792
+    second: judul_game-removebg-preview_2
+  - first:
+      213: -4928763969834871102
+    second: judul_game-removebg-preview_3
+  - first:
+      213: -2428586006419572735
+    second: judul_game-removebg-preview_4
+  - first:
+      213: -3848173159635356098
+    second: judul_game-removebg-preview_5
+  - first:
+      213: -5436998332258786329
+    second: judul_game-removebg-preview_6
+  - first:
+      213: -6721906737203898447
+    second: judul_game-removebg-preview_7
+  - first:
+      213: -6220968392671806136
+    second: judul_game-removebg-preview_8
+  - first:
+      213: -4560294079801804065
+    second: judul_game-removebg-preview_9
+  - first:
+      213: 5889288490893719750
+    second: judul_game-removebg-preview_10
+  - first:
+      213: -3038909796348574120
+    second: judul_game-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 231
+        width: 130
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002346d699af01c60800000000000000
+      internalID: 7786999292595810816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 50
+        width: 35
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fee82a00843ff00800000000000000
+      internalID: 1149341497474084651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 92
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a4eb7e536cd66e0800000000000000
+      internalID: -1842598737701090792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 37
+        width: 637
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c69f3c7843899bb0800000000000000
+      internalID: -4928763969834871102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 217
+        width: 299
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10870e4f4edeb4ed0800000000000000
+      internalID: -2428586006419572735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 9
+        width: 107
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36fdb956ea889ac0800000000000000
+      internalID: -3848173159635356098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 3
+        width: 95
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3e251c2d6eb84b0800000000000000
+      internalID: -5436998332258786329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 9
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b718abcf6df6b2a0800000000000000
+      internalID: -6721906737203898447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 9
+        width: 102
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d3ddbf43eaaa9a0800000000000000
+      internalID: -6220968392671806136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3
+        width: 137
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdab81622b496b0c0800000000000000
+      internalID: -4560294079801804065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 9
+        width: 123
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8348ffda4fab150800000000000000
+      internalID: 5889288490893719750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: judul_game-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 3
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856403c14af93d5d0800000000000000
+      internalID: -3038909796348574120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      judul_game-removebg-preview_0: 7786999292595810816
+      judul_game-removebg-preview_1: 1149341497474084651
+      judul_game-removebg-preview_10: 5889288490893719750
+      judul_game-removebg-preview_11: -3038909796348574120
+      judul_game-removebg-preview_2: -1842598737701090792
+      judul_game-removebg-preview_3: -4928763969834871102
+      judul_game-removebg-preview_4: -2428586006419572735
+      judul_game-removebg-preview_5: -3848173159635356098
+      judul_game-removebg-preview_6: -5436998332258786329
+      judul_game-removebg-preview_7: -6721906737203898447
+      judul_game-removebg-preview_8: -6220968392671806136
+      judul_game-removebg-preview_9: -4560294079801804065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

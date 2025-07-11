@@ -459,11 +459,11 @@ MonoBehaviour:
   _showBackground: 1
   p_clickSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1898615355
+      Data2: 1109998469
+      Data3: -723093859
+      Data4: -997586992
+    Path: event:/UI/Button1
   onClick:
     m_PersistentCalls:
       m_Calls: []

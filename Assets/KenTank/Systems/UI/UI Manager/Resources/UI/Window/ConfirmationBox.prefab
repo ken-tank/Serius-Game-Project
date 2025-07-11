@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 53.2538}
+  m_SizeDelta: {x: 0, y: 101.9919}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1596891476911532160
 MonoBehaviour:
@@ -56,7 +56,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 35
+  m_Spacing: 89.8
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   a_root: {fileID: 93712307338763318}
   a_header: {fileID: 2828703372161702576}
   a_content: {fileID: 6370205191234102362}
-  p_header: Alert!
+  p_header: Pemberitahuan!
   p_content: Lorem Ipsum De Amet
   waitAnimation: 1
   onTrue:
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 6.8409004}
-  m_SizeDelta: {x: -39.60782, y: -102.3451}
+  m_AnchoredPosition: {x: 0, y: 24.535}
+  m_SizeDelta: {x: -39.6078, y: -154.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1152355312597148486
 CanvasRenderer:
@@ -294,8 +294,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 8.5
@@ -376,7 +376,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 364.4532, y: 185.0179}
+  m_SizeDelta: {x: 546.6235, y: 346.6237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3894818677491856063
 CanvasRenderer:
@@ -450,8 +450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -23.6}
-  m_SizeDelta: {x: 316.5342, y: 30}
+  m_AnchoredPosition: {x: 0, y: -30.7614}
+  m_SizeDelta: {x: 316.5342, y: 44.3227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4706774510230719665
 CanvasRenderer:
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Alert!
+  m_text: Pemberitahuan!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32dc35c4f6a51294a902990210cd62fd, type: 2}
   m_sharedMaterial: {fileID: -316060782970953901, guid: 32dc35c4f6a51294a902990210cd62fd, type: 2}
@@ -508,8 +508,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 8.5
@@ -598,7 +598,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1377742855722964058, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: _label
-      value: No
+      value: Tidak
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_Pivot.x
@@ -626,11 +626,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 80
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -742,7 +742,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8063169010667300993, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_text
-      value: No
+      value: Tidak
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063169010667300993, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
+      propertyPath: m_fontSize
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -775,7 +779,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1377742855722964058, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: _label
-      value: Yes
+      value: Ya
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_Pivot.x
@@ -803,11 +807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 80
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1455272723467120517, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -931,7 +935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8063169010667300993, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
       propertyPath: m_text
-      value: Yes
+      value: Ya
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063169010667300993, guid: c3b6942d763aaa842886af4386dafca6, type: 3}
+      propertyPath: m_fontSize
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
