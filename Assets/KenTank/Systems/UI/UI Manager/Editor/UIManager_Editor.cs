@@ -1,7 +1,11 @@
+using System;
+using System.Linq;
 using KenTank.Systems.UI.Procedural;
 using KenTank.Utilities.Extensions;
 using UnityEditor;
 using UnityEngine;
+
+using Debug = UnityEngine.Debug;
 
 namespace KenTank.Systems.UI.Editor
 {
@@ -119,16 +123,23 @@ namespace KenTank.Systems.UI.Editor
 
             Undo.CollapseUndoOperations(group);
         }
-
-        [MenuItem("GameObject/UI/KenTank/Animation/UI Transition (From Selected)", false)]
+        
+        static bool _executedThisFrame = false;
+        [MenuItem("GameObject/UI/KenTank/Animation/UI Transition (From Selections)", false)]
         public static void CreateAwakeAnimateRootSelected()
         {
-            var selecteds = Selection.transforms;
-            if (selecteds.Length == 0)
+            if (_executedThisFrame) return;
+
+            void DirtyApply() 
             {
-                Debug.LogWarning("No selected objects.");
-                return;
+                _executedThisFrame = false;
+                EditorApplication.delayCall -= DirtyApply;
             }
+
+            _executedThisFrame = true;
+            EditorApplication.delayCall += DirtyApply;
+
+            var activeSelected = Selection.gameObjects;
 
             // Start undo group outside loop
             Undo.IncrementCurrentGroup();
@@ -136,8 +147,10 @@ namespace KenTank.Systems.UI.Editor
 
             Transform lastCreated = null;
 
-            foreach (var selected in selecteds)
+            var temp = activeSelected.ToArray();
+            foreach (var selectedGO in temp)
             {
+                var selected = selectedGO.transform;
                 if (!selected.TryGetComponent(out RectTransform selected_rect))
                 {
                     Debug.LogWarning($"GameObject '{selected.name}' does not have a RectTransform.");
@@ -178,6 +191,7 @@ namespace KenTank.Systems.UI.Editor
                 root_rect.anchorMax = selected_rect.anchorMax;
                 root_rect.sizeDelta = selected_rect.sizeDelta;
                 root_rect.anchoredPosition = selected_rect.anchoredPosition;
+                root_rect.pivot = selected_rect.pivot;
 
                 root.transform.localScale = Vector3.one;
 
@@ -196,6 +210,7 @@ namespace KenTank.Systems.UI.Editor
                 selected_rect.anchorMax = Vector2.one;
                 selected_rect.sizeDelta = Vector2.zero;
                 selected_rect.anchoredPosition = Vector2.zero;
+                selected_rect.pivot = new (0.5f, 0.5f);
 
                 // Rename and set sibling index
                 root.name = selected.name;
@@ -207,7 +222,14 @@ namespace KenTank.Systems.UI.Editor
             // Set last created as active (optional)
             if (lastCreated)
             {
-                Selection.activeTransform = lastCreated;
+                if (activeSelected.Length > 1)
+                {
+                    //Selection.activeTransform = lastCreated.parent;
+                }
+                else
+                {
+                    Selection.activeTransform = lastCreated;
+                }
             }
 
             // Collapse all undo operations to a single action

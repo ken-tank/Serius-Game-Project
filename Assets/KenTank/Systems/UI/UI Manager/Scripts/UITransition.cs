@@ -1,6 +1,7 @@
 using DG.Tweening;
 using FMODUnity;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace KenTank.Systems.UI
 {
@@ -20,6 +21,9 @@ namespace KenTank.Systems.UI
         
         public Animate show;
         public Animate hide;
+
+        [Header("Events")]
+        public UnityEvent onComplete;
 
         public bool isShow {get;set;}
 
@@ -88,6 +92,7 @@ namespace KenTank.Systems.UI
                 {
                     gameObject.SetActive(false);
                 }
+                onComplete.Invoke();
             });
 
             if (enableFade) sequance.Insert(delay, alpha.DOFade(value ? 1 : 0, fadeDuration).SetId(id));

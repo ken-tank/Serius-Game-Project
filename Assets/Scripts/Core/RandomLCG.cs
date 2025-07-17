@@ -77,6 +77,20 @@ namespace Game.Core
         }
 
         /// <summary>
+        /// Menghasilkan angka acak integer berikutnya dalam rentang [0, maxValue).
+        /// </summary>
+        /// <param name="maxValue">Batas atas eksklusif.</param>
+        /// <returns>Angka acak Float.</returns>
+        public float Next(float maxValue)
+        {
+            if (maxValue <= 0)
+            {
+                throw new ArgumentException("maxValue harus lebih besar dari 0.");
+            }
+            return (float)(Next() % maxValue);
+        }
+
+        /// <summary>
         /// Menghasilkan angka acak integer berikutnya dalam rentang [minValue, maxValue).
         /// </summary>
         /// <param name="minValue">Batas bawah inklusif.</param>
@@ -90,6 +104,22 @@ namespace Game.Core
             }
             long range = (long)maxValue - minValue;
             return (int)(minValue + (Next() % range));
+        }
+
+        /// <summary>
+        /// Menghasilkan angka acak integer berikutnya dalam rentang [minValue, maxValue).
+        /// </summary>
+        /// <param name="minValue">Batas bawah inklusif.</param>
+        /// <param name="maxValue">Batas atas eksklusif.</param>
+        /// <returns>Angka acak Float.</returns>
+        public float Next(float minValue, float maxValue)
+        {
+            if (minValue >= maxValue)
+            {
+                throw new ArgumentException("minValue harus lebih kecil dari maxValue.");
+            }
+            double range = (double)maxValue - minValue;
+            return (float)(minValue + (Next() % range));
         }
 
         /// <summary>

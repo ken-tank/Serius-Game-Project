@@ -96,6 +96,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2112193785632203817
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +231,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2379467440459686823
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +452,7 @@ MonoBehaviour:
   delay: 0
   interval: 0.1
   reverseOnHide: 0
+  disableWhenHide: 1
   sequances:
   - {fileID: 4370506255189646319}
   - {fileID: 4649012766746941652}
@@ -453,6 +460,9 @@ MonoBehaviour:
   - {fileID: 4195406410942258375}
   - {fileID: 2892057987814689840}
   - {fileID: 8214175255550799324}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4152617217746666665
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +559,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4556636849564860926
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +658,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5450879056874819769
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +793,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6418869119708660889
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +964,9 @@ MonoBehaviour:
         Data4: 0
       Path: 
     soundDelay: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7382991972162011810
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +978,7 @@ GameObject:
   - component: {fileID: 4212840070340005267}
   - component: {fileID: 8888969369557252432}
   m_Layer: 5
-  m_Name: Item1 (1)
+  m_Name: Item2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,6 +1,7 @@
 using System.Linq;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace KenTank.Systems.UI
 {
@@ -8,10 +9,14 @@ namespace KenTank.Systems.UI
     public class UITransitionSequence : MonoBehaviour
     {
         [SerializeField] bool autoAnimate = true;
-        [SerializeField] float delay;
-        [SerializeField] float interval;
+        public float delay;
+        public float interval;
         [SerializeField] bool reverseOnHide;
+        [SerializeField] bool disableWhenHide = true;
         [SerializeField] UITransition[] sequances;
+
+        [Header("Events")]
+        public UnityEvent onComplete;
 
         public bool isShow {get;set;}
 
@@ -60,8 +65,9 @@ namespace KenTank.Systems.UI
             .OnComplete(() => {
                 if (!showState)
                 {
-                    gameObject.SetActive(false);
+                    if (disableWhenHide) gameObject.SetActive(false);
                 }
+                onComplete.Invoke();
             });
 
             var time = 0f;

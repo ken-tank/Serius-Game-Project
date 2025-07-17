@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: b1387386d98e7814cb39cb5615e7587a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 770522771863201847
+    second: pngtree-red-grapes-sweet-png-image_15818740_0
+  - first:
+      213: 3689004732078343811
+    second: pngtree-red-grapes-sweet-png-image_15818740_1
+  - first:
+      213: 6562815120535557016
+    second: pngtree-red-grapes-sweet-png-image_15818740_2
+  - first:
+      213: 4738450217381191837
+    second: pngtree-red-grapes-sweet-png-image_15818740_3
+  - first:
+      213: 5129322058877239885
+    second: pngtree-red-grapes-sweet-png-image_15818740_4
+  - first:
+      213: 6920413673906242628
+    second: pngtree-red-grapes-sweet-png-image_15818740_5
+  - first:
+      213: -7715045225390409420
+    second: pngtree-red-grapes-sweet-png-image_15818740_6
+  - first:
+      213: 3238116539503469220
+    second: pngtree-red-grapes-sweet-png-image_15818740_7
+  - first:
+      213: -6297449740546818274
+    second: pngtree-red-grapes-sweet-png-image_15818740_8
+  - first:
+      213: 726475403429764129
+    second: pngtree-red-grapes-sweet-png-image_15818740_9
+  - first:
+      213: 4471191912422992063
+    second: pngtree-red-grapes-sweet-png-image_15818740_10
+  - first:
+      213: -2993836895030395722
+    second: pngtree-red-grapes-sweet-png-image_15818740_11
+  - first:
+      213: -6314345496447970273
+    second: pngtree-red-grapes-sweet-png-image_15818740_12
+  - first:
+      213: 3011533033614388112
+    second: pngtree-red-grapes-sweet-png-image_15818740_13
+  - first:
+      213: -5083439997615283047
+    second: pngtree-red-grapes-sweet-png-image_15818740_14
+  - first:
+      213: -6341220393723219217
+    second: pngtree-red-grapes-sweet-png-image_15818740_15
+  - first:
+      213: -7727077032515412241
+    second: pngtree-red-grapes-sweet-png-image_15818740_16
+  - first:
+      213: 2632929382358148946
+    second: pngtree-red-grapes-sweet-png-image_15818740_17
+  - first:
+      213: 8348942671781206370
+    second: pngtree-red-grapes-sweet-png-image_15818740_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 2393
+        height: 2383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738614ce06271ba00800000000000000
+      internalID: 770522771863201847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_1
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 2400
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386c346324af13330800000000000000
+      internalID: 3689004732078343811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_2
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8939512b49dc31b50800000000000000
+      internalID: 6562815120535557016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_3
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1798
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90e0e80e5b52c140800000000000000
+      internalID: 4738450217381191837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_4
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1368
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4204f97c330f2740800000000000000
+      internalID: 5129322058877239885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1048
+        width: 240
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44400fb029f3a0060800000000000000
+      internalID: 6920413673906242628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_6
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1198
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439f78a5e37aee490800000000000000
+      internalID: -7715045225390409420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_7
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2eb6e16d910fc20800000000000000
+      internalID: 3238116539503469220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_8
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 596
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb4d783d6fa98a0800000000000000
+      internalID: -6297449740546818274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_9
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 166
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c5d77c785f41a00800000000000000
+      internalID: 726475403429764129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8629eda5ddc0e30800000000000000
+      internalID: 4471191912422992063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_11
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc314cb431c376d0800000000000000
+      internalID: -2993836895030395722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_12
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14912fc930fe58a0800000000000000
+      internalID: -6314345496447970273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_13
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ba0f9965d1bc920800000000000000
+      internalID: 3011533033614388112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_14
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e021614ef379b0800000000000000
+      internalID: -5083439997615283047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_15
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 0
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe23aad26a57ff7a0800000000000000
+      internalID: -6341220393723219217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_16
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 0
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feed6d4f068e3c490800000000000000
+      internalID: -7727077032515412241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_17
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257652ac25b0a8420800000000000000
+      internalID: 2632929382358148946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-red-grapes-sweet-png-image_15818740_18
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 0
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2699e9910276dd370800000000000000
+      internalID: 8348942671781206370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-red-grapes-sweet-png-image_15818740_0: 770522771863201847
+      pngtree-red-grapes-sweet-png-image_15818740_1: 3689004732078343811
+      pngtree-red-grapes-sweet-png-image_15818740_10: 4471191912422992063
+      pngtree-red-grapes-sweet-png-image_15818740_11: -2993836895030395722
+      pngtree-red-grapes-sweet-png-image_15818740_12: -6314345496447970273
+      pngtree-red-grapes-sweet-png-image_15818740_13: 3011533033614388112
+      pngtree-red-grapes-sweet-png-image_15818740_14: -5083439997615283047
+      pngtree-red-grapes-sweet-png-image_15818740_15: -6341220393723219217
+      pngtree-red-grapes-sweet-png-image_15818740_16: -7727077032515412241
+      pngtree-red-grapes-sweet-png-image_15818740_17: 2632929382358148946
+      pngtree-red-grapes-sweet-png-image_15818740_18: 8348942671781206370
+      pngtree-red-grapes-sweet-png-image_15818740_2: 6562815120535557016
+      pngtree-red-grapes-sweet-png-image_15818740_3: 4738450217381191837
+      pngtree-red-grapes-sweet-png-image_15818740_4: 5129322058877239885
+      pngtree-red-grapes-sweet-png-image_15818740_5: 6920413673906242628
+      pngtree-red-grapes-sweet-png-image_15818740_6: -7715045225390409420
+      pngtree-red-grapes-sweet-png-image_15818740_7: 3238116539503469220
+      pngtree-red-grapes-sweet-png-image_15818740_8: -6297449740546818274
+      pngtree-red-grapes-sweet-png-image_15818740_9: 726475403429764129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
