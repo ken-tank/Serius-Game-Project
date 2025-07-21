@@ -502,6 +502,10 @@ PrefabInstance:
       propertyPath: m_text
       value: YUSTINA RETNO WAHYU UTAMI, ST, M.Cs
       objectReference: {fileID: 0}
+    - target: {fileID: 2041947602735195563, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
+      propertyPath: link
+      value: mailto:yustinaretno@tsu.ac.id
+      objectReference: {fileID: 0}
     - target: {fileID: 2435666200942246870, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
       propertyPath: m_Name
       value: Item (3)
@@ -3566,6 +3570,10 @@ PrefabInstance:
       propertyPath: m_text
       value: PAULUS HARSADI, S.Kom, M.Kom
       objectReference: {fileID: 0}
+    - target: {fileID: 2041947602735195563, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
+      propertyPath: link
+      value: mailto:paulusharsadi@tsu.ac.id
+      objectReference: {fileID: 0}
     - target: {fileID: 2435666200942246870, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
       propertyPath: m_Name
       value: Item (2)
@@ -4106,6 +4114,10 @@ PrefabInstance:
     - target: {fileID: 900168291482875904, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
       propertyPath: m_text
       value: BAYU DWI RAHARJA, S.Kom, M.Kom
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041947602735195563, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
+      propertyPath: link
+      value: mailto:bayuraharja@tsu.ac.id
       objectReference: {fileID: 0}
     - target: {fileID: 2435666200942246870, guid: 779a894a4efc2754cadb8df95141422d, type: 3}
       propertyPath: m_Name

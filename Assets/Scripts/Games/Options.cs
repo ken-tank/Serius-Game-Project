@@ -30,7 +30,6 @@ public class Options : MonoBehaviour
         });
         sfx.onValueChanged.AddListener(value => {
             manager.config.Set("audio-sfx", value);
-            RuntimeManager.StudioSystem.setParameterByName("SFX", value ? 1 : 0);
             RuntimeManager.StudioSystem.setParameterByName("UI", value ? 1 : 0);
             manager.DirtySave();
         });

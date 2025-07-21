@@ -17,7 +17,6 @@ namespace KenTank.Core.SettingsManager
             bool music = data.Get("audio-music").getBool;
             bool sfx = data.Get("audio-sfx").getBool;
             RuntimeManager.StudioSystem.setParameterByName("Music", music ? 1 : 0);
-            RuntimeManager.StudioSystem.setParameterByName("SFX", sfx ? 1 : 0);
             RuntimeManager.StudioSystem.setParameterByName("UI", sfx ? 1 : 0);
         }
 

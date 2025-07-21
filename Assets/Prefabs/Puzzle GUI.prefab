@@ -2281,8 +2281,47 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1658572023110308280, guid: b856a0400e933ad4f90e3691ccabbaea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1779324185512582459}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6198579819098309836, guid: b856a0400e933ad4f90e3691ccabbaea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8548305146864722067}
   m_SourcePrefab: {fileID: 100100000, guid: b856a0400e933ad4f90e3691ccabbaea, type: 3}
+--- !u!1 &132924288072190870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6198579819098309836, guid: b856a0400e933ad4f90e3691ccabbaea, type: 3}
+  m_PrefabInstance: {fileID: 6331492003818377050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8548305146864722067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132924288072190870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -932666367
+      Data2: 1332913864
+      Data3: 1140977575
+      Data4: -360251479
+    Path: event:/UI/Win
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!224 &4672928924109774562 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1658572023110308280, guid: b856a0400e933ad4f90e3691ccabbaea, type: 3}
