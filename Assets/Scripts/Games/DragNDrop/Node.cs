@@ -4,6 +4,7 @@ using DG.Tweening;
 using Game.Core;
 using KenTank.Systems.UI.Procedural;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -19,6 +20,8 @@ namespace Games.DragNDrop
         [Header("Properties")]
         [SerializeField] bool lockPosition = true;
         [SerializeField] Gradient fillColor;
+
+        public UnityEvent onValid;
         
         DragNDropManager manager => DragNDropManager.instance;
         PointerEventData pointer;
@@ -39,6 +42,7 @@ namespace Games.DragNDrop
             isGraping = true;
             pointer = data;
             offset = (Vector2)transform.position - pointer.position;
+            transform.SetAsLastSibling();
             manager.selectedNode = this;
             canvas.overrideSorting = true;
             graphicRaycaster.enabled = false;
@@ -71,6 +75,8 @@ namespace Games.DragNDrop
                 transform.DOMove(selectedSlot.transform.position, 0.2f)
                 .SetEase(Ease.OutQuad)
                 .SetId(idSnapPos);
+                selectedSlot.onFilled?.Invoke(this);
+                onValid?.Invoke();
             }
             else
             {
@@ -105,8 +111,11 @@ namespace Games.DragNDrop
             canvas = GetComponent<Canvas>();
             graphicRaycaster = GetComponent<GraphicRaycaster>();
 
-            shape.color = fillColor.Evaluate(UnityEngine.Random.Range(0, 1.1f));
-            shape.SetVerticesDirty();
+            if (shape)
+            {
+                shape.color = fillColor.Evaluate(UnityEngine.Random.Range(0, 1.1f));
+                shape.SetVerticesDirty();
+            }
 
             canvas.sortingOrder = 5;
             canvas.overrideSorting = false;

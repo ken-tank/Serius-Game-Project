@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
@@ -16,6 +17,9 @@ namespace KenTank.Core.SettingsManager
         string path => Path.Join(Application.persistentDataPath, "config.ini");
 
         public static Action onInitialized;
+        public static bool isInitialized;
+
+        Coroutine dirtySaveTask = null;
 
         [RuntimeInitializeOnLoadMethod]
         public static void Init()
@@ -32,6 +36,7 @@ namespace KenTank.Core.SettingsManager
             await LoadAsync();
             onInitialized?.Invoke();
             SettingsActions.ApplyEffect();
+            isInitialized = true;
         }
 
         string[] Deserialize(GameConfig config)
@@ -116,6 +121,19 @@ namespace KenTank.Core.SettingsManager
         public async void Save(bool useDefault = false) 
         {
             await SaveAsync(useDefault);
+        }
+
+        public void DirtySave(float wait = 1) 
+        {
+            IEnumerator job()
+            {
+                yield return new WaitForSecondsRealtime(wait);
+                Save();
+                dirtySaveTask = null;
+            }
+
+            if (dirtySaveTask != null) StopCoroutine(dirtySaveTask);
+            dirtySaveTask = StartCoroutine(job());
         }
     }
 }

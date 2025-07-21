@@ -20,6 +20,60 @@ MonoBehaviour:
   - Name: Mobile
     Value: 506
   Exists: 1
+--- !u!114 &-8340970983438463326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_2/bermain bola
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_2/bermain bola
+  Guid:
+    Data1: 27509690
+    Data2: 1325908961
+    Data3: -1196207730
+    Data4: 702557449
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5064
+--- !u!114 &-7893600074173367862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/Untiteled/hewan terbang
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/Untiteled/hewan terbang
+  Guid:
+    Data1: 718147266
+    Data2: 1341977421
+    Data3: 707716738
+    Data4: -524605788
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3456
 --- !u!114 &-7808295280457468040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,6 +121,33 @@ MonoBehaviour:
   - Name: Mobile
     Value: 101952
   Exists: 1
+--- !u!114 &-6605294771918085800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_2/bermain layangan
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_2/bermain layangan
+  Guid:
+    Data1: 1510967622
+    Data2: 1091916153
+    Data3: 1964287911
+    Data4: -1611172545
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5136
 --- !u!114 &-6445653846006734877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +172,60 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6259158307586883916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_1/berangkat sekolah
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_1/berangkat sekolah
+  Guid:
+    Data1: -823254831
+    Data2: 1191508002
+    Data3: 1684053688
+    Data4: -646067025
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31920
+--- !u!114 &-5833779003149060567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 4/bersepeda
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 4/bersepeda
+  Guid:
+    Data1: 642340143
+    Data2: 1133971704
+    Data3: -1954393188
+    Data4: -543336908
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4320
 --- !u!114 &-5257416983581687717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +253,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1225
+--- !u!114 &-4443762003273940552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Animal Sound/ayam
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Animal Sound/ayam
+  Guid:
+    Data1: -1775558689
+    Data2: 1080734954
+    Data3: 81903008
+    Data4: -513163932
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2377
+--- !u!114 &-4431713537691596956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_1/makan
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_1/makan
+  Guid:
+    Data1: 80020419
+    Data2: 1292788366
+    Data3: -945575269
+    Data4: 1677544897
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33408
+--- !u!114 &-4364472735383218950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_3/bantu pergi ke sekolah
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_3/bantu pergi ke sekolah
+  Guid:
+    Data1: -987427952
+    Data2: 1080001342
+    Data3: -2123945040
+    Data4: -1368761976
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5328
 --- !u!114 &-3909685191114545657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,11 +349,38 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638878292455594283
+  lastModified: 638886104608759004
   FileSizes:
   - Name: Mobile
-    Value: 1752
+    Value: 2652
   Exists: 1
+--- !u!114 &-3177596067553059969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_3/bantu kembali ke rumah
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_3/bantu kembali ke rumah
+  Guid:
+    Data1: -1327968573
+    Data2: 1275333463
+    Data3: -1025477243
+    Data4: 1393407430
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4320
 --- !u!114 &-3164512305413217578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,11 +396,65 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Dialog.bank
   Name: Dialog
   StudioPath: bank:/Dialog
-  lastModified: 638878288839275839
+  lastModified: 638886104608633271
   FileSizes:
   - Name: Mobile
-    Value: 506
+    Value: 3298560
   Exists: 1
+--- !u!114 &-2359374066521808039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Animal Sound/bebek
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Animal Sound/bebek
+  Guid:
+    Data1: -266438709
+    Data2: 1134119930
+    Data3: 1499487375
+    Data4: -2009132873
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1584
+--- !u!114 &-2112833107494908664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Animal Sound/kucing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Animal Sound/kucing
+  Guid:
+    Data1: -1299637345
+    Data2: 1177036650
+    Data3: 272006335
+    Data4: -786983521
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 862
 --- !u!114 &-1012663515754435359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +506,60 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-403697225235183664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/Untiteled/hewan bertelur
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/Untiteled/hewan bertelur
+  Guid:
+    Data1: 2022299947
+    Data2: 1116207506
+    Data3: -1353160292
+    Data4: 1388188526
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4224
+--- !u!114 &-253850464847731660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 4/mengepel
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 4/mengepel
+  Guid:
+    Data1: -1441388420
+    Data2: 1269574945
+    Data3: -142666833
+    Data4: -548423520
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4656
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +586,24 @@ MonoBehaviour:
   - {fileID: 6979877590260181519}
   - {fileID: -1012663515754435359}
   - {fileID: -7808295280457468040}
+  - {fileID: -403697225235183664}
+  - {fileID: -5833779003149060567}
+  - {fileID: -6605294771918085800}
+  - {fileID: -253850464847731660}
+  - {fileID: -4364472735383218950}
+  - {fileID: -8340970983438463326}
+  - {fileID: -7893600074173367862}
+  - {fileID: -4431713537691596956}
+  - {fileID: -3177596067553059969}
+  - {fileID: -6259158307586883916}
+  - {fileID: 4958485991742213933}
+  - {fileID: 6626248852926298959}
+  - {fileID: -4443762003273940552}
+  - {fileID: -2359374066521808039}
+  - {fileID: 3252146803223013421}
+  - {fileID: 4470538697415511390}
+  - {fileID: -2112833107494908664}
+  - {fileID: 5792817029167412340}
   EditorParameters:
   - {fileID: 8733996891324776856}
   - {fileID: -768314123924829159}
@@ -246,7 +615,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3909685191114545657}
   cacheVersion: 131848
-  cacheTime: 638878292473615755
+  cacheTime: 638886104608759004
   SerializableEventsDict:
   - key: snapshot:/Music/Reduce Volume
     index: 0
@@ -260,6 +629,69 @@ MonoBehaviour:
     index: 4
   - key: event:/Music/Music2
     index: 5
+  - key: event:/Dialog/Untiteled/hewan bertelur
+    index: 6
+  - key: event:/Dialog/minggu 4/bersepeda
+    index: 7
+  - key: event:/Dialog/minggu 3_2/bermain layangan
+    index: 8
+  - key: event:/Dialog/minggu 4/mengepel
+    index: 9
+  - key: event:/Dialog/minggu 3_3/bantu pergi ke sekolah
+    index: 10
+  - key: event:/Dialog/minggu 3_2/bermain bola
+    index: 11
+  - key: event:/Dialog/Untiteled/hewan terbang
+    index: 12
+  - key: event:/Dialog/minggu 3_1/makan
+    index: 13
+  - key: event:/Dialog/minggu 3_3/bantu kembali ke rumah
+    index: 14
+  - key: event:/Dialog/minggu 3_1/berangkat sekolah
+    index: 15
+  - key: event:/Dialog/minggu 3_2/bermain sepeda
+    index: 16
+  - key: event:/Dialog/Untiteled/hewan berenang
+    index: 17
+  - key: event:/SFX/Animal Sound/ayam
+    index: 18
+  - key: event:/SFX/Animal Sound/bebek
+    index: 19
+  - key: event:/SFX/Animal Sound/burung
+    index: 20
+  - key: event:/SFX/Animal Sound/harimau
+    index: 21
+  - key: event:/SFX/Animal Sound/kucing
+    index: 22
+  - key: event:/Dialog/3.4
+    index: 23
+--- !u!114 &3252146803223013421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Animal Sound/burung
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Animal Sound/burung
+  Guid:
+    Data1: -1579201966
+    Data2: 1316004197
+    Data3: -905784143
+    Data4: 1079934187
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1697
 --- !u!114 &3725267978510578925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,6 +716,87 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &4470538697415511390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Animal Sound/harimau
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Animal Sound/harimau
+  Guid:
+    Data1: -414518110
+    Data2: 1158565492
+    Data3: 1492829843
+    Data4: 1964662611
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1680
+--- !u!114 &4958485991742213933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/minggu 3_2/bermain sepeda
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/minggu 3_2/bermain sepeda
+  Guid:
+    Data1: 1058053593
+    Data2: 1237395911
+    Data3: -1097674595
+    Data4: -1046903846
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5424
+--- !u!114 &5792817029167412340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/3.4
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/3.4
+  Guid:
+    Data1: 1120807340
+    Data2: 1241894049
+    Data3: 379967651
+    Data4: 1901802144
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65328
 --- !u!114 &5865463778190552821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,11 +863,38 @@ MonoBehaviour:
   Path: FMOD/Build/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638878292455584255
+  lastModified: 638886104608748778
   FileSizes:
   - Name: Mobile
     Value: 5034
   Exists: 1
+--- !u!114 &6626248852926298959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialog/Untiteled/hewan berenang
+  m_EditorClassIdentifier: 
+  Path: event:/Dialog/Untiteled/hewan berenang
+  Guid:
+    Data1: 1865936870
+    Data2: 1156066747
+    Data3: -65241190
+    Data4: 978759724
+  Banks:
+  - {fileID: -3164512305413217578}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5184
 --- !u!114 &6979877590260181519
 MonoBehaviour:
   m_ObjectHideFlags: 0

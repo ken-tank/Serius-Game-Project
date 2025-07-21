@@ -25,3 +25,9 @@ MonoBehaviour:
   - key: system-language
     valueType: 0
     value: en
+  - key: audio-music
+    valueType: 2
+    value: true
+  - key: audio-sfx
+    valueType: 2
+    value: true

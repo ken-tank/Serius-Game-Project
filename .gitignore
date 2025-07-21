@@ -102,3 +102,4 @@ InitTestScene*.unity*
 !/FMOD/Build/
 !/FMOD/Assets/
 !*.gitkeep
+/Raw/

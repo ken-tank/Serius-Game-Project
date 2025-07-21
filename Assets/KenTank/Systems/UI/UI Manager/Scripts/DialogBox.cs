@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace KenTank.Systems.UI
@@ -20,6 +21,8 @@ namespace KenTank.Systems.UI
         [SerializeField] Transition showTransition; 
         [SerializeField] Transition hideTransition; 
 
+        public UnityEvent onShow;
+
         [System.Serializable]
         class Transition {
             public Vector2 offset;
@@ -37,6 +40,7 @@ namespace KenTank.Systems.UI
                 a_root.localScale = showTransition.size;
                 a_background.alpha = 0;
                 if (!gameObject.activeSelf) gameObject.SetActive(true);
+                onShow.Invoke();
             }
 
             DOTween.Kill(id);

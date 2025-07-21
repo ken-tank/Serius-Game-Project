@@ -48,7 +48,14 @@ namespace KenTank.Systems.UI.Procedural
 
         [Tooltip("Amount of the circle to fill (0.0 to 1.0). Only applicable for Radial360 fill method.")]
         [Range(0f, 1f)]
-        public float fillAmount = 1f;
+        [SerializeField] float _fillAmount = 1f;
+        public float fillAmount {
+            get => _fillAmount;
+            set {
+                _fillAmount = value;
+                SetVerticesDirty();
+            }
+        }
 
         [Tooltip("Origin point for radial filling. Only applicable for Radial360 fill method.")]
         public CircleFillOrigin fillOrigin = CircleFillOrigin.Bottom;
@@ -391,7 +398,7 @@ namespace KenTank.Systems.UI.Procedural
             m_Filled = serializedObject.FindProperty("filled"); 
             m_Segments = serializedObject.FindProperty("segments");
             m_FillMethod = serializedObject.FindProperty("fillMethod");
-            m_FillAmount = serializedObject.FindProperty("fillAmount");
+            m_FillAmount = serializedObject.FindProperty("_fillAmount");
             m_FillOrigin = serializedObject.FindProperty("fillOrigin");
             m_FillClockwise = serializedObject.FindProperty("fillClockwise");
 

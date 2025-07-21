@@ -17,6 +17,7 @@ namespace Games.ConnectGame
         [Header("Properties")]
         public Direction direction = Direction.Positive;
         public Node targetConnect;
+        public bool multiConnect = false;
         
         PointerEventData pointer;
         LineRenderer line;
@@ -107,6 +108,7 @@ namespace Games.ConnectGame
 
         public bool isConnectWithTarget() 
         {
+            if (!targetConnect) return true;
             if (!connectedWith || !targetConnect) return false;
             return connectedWith == targetConnect;
         }
@@ -189,7 +191,7 @@ namespace Games.ConnectGame
 
         void OnValidate()
         {
-            if (targetConnect)
+            if (targetConnect && !multiConnect)
             {
                 targetConnect.targetConnect = this;
             }

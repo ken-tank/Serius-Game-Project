@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8236697749224065219}
   - component: {fileID: 5547822205036297567}
-  - component: {fileID: 7945116470353915998}
   - component: {fileID: 1837169449978295684}
+  - component: {fileID: 9192504340886165895}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -30,7 +30,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7006564416449304934}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -46,38 +47,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024977529307959217}
   m_CullTransparentMesh: 1
---- !u!114 &7945116470353915998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024977529307959217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df8347b8110bc345b6031e15caba2ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.64705884, g: 0.8078432, b: 0.8352942, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  filled: 1
-  cornerMode: 0
-  universalCornerRadius: 20
-  topLeftRadius: 20
-  topRightRadius: 20
-  bottomRightRadius: 20
-  bottomLeftRadius: 20
-  segmentsPerCorner: 8
-  drawOutline: 1
-  outlineThickness: 4
-  outlineColor: {r: 0, g: 0, b: 0, a: 1}
-  outlinePosition: 2
 --- !u!114 &1837169449978295684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b070926eb9a6f9148aba79f6b3a462bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shape: {fileID: 7945116470353915998}
+  shape: {fileID: 5446338983052486927}
   allowInvalid: 1
   outlineColor: {r: 0, g: 0, b: 0, a: 1}
   outlineColorHighlight:
@@ -154,3 +123,110 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   target: []
+--- !u!114 &9192504340886165895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024977529307959217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8558757826139917702, guid: 1c29e69bb1d77a048b10a1782a4c4b99, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8082346462645926087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7006564416449304934}
+  - component: {fileID: 4668120030194636209}
+  - component: {fileID: 5446338983052486927}
+  m_Layer: 0
+  m_Name: Procedural Rectangle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7006564416449304934
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082346462645926087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8236697749224065219}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 4.3596}
+  m_SizeDelta: {x: -27.9233, y: -29.7611}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4668120030194636209
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082346462645926087}
+  m_CullTransparentMesh: 1
+--- !u!114 &5446338983052486927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082346462645926087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df8347b8110bc345b6031e15caba2ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  filled: 0
+  cornerMode: 0
+  universalCornerRadius: 25.66
+  topLeftRadius: 20
+  topRightRadius: 20
+  bottomRightRadius: 20
+  bottomLeftRadius: 20
+  segmentsPerCorner: 8
+  drawOutline: 1
+  outlineThickness: 6.6
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlinePosition: 2

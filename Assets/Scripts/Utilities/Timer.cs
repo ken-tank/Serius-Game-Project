@@ -14,6 +14,7 @@ namespace Game.Utilities
         public Mode mode = Mode.forward;
 
         [Header("Events")]
+        public UnityEvent<float> backwardPercent;
         public UnityEvent<TimeSpan> now;
         public UnityEvent onStart;
         public UnityEvent onEnd;
@@ -62,10 +63,14 @@ namespace Game.Utilities
             var timeSpan = TimeSpan.FromSeconds(seconds);
             now.Invoke(timeSpan);
 
-            if (mode == Mode.backward && seconds <= 0)
+            if (mode == Mode.backward)
             {
-                onEnd.Invoke();
-                isRunning = false;
+                backwardPercent.Invoke(Mathf.InverseLerp(0, startFrom, (float)seconds));
+                if (seconds <= 0)
+                {
+                    onEnd.Invoke();
+                    isRunning = false;
+                }
             }
         }
     }

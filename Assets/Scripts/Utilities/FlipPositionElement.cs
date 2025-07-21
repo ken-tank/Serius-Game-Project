@@ -11,18 +11,20 @@ namespace Game.Utilities
     public class FlipPositionElement : MonoBehaviour
     {
         [SerializeField] bool autoStart = true;
+        [SerializeField] bool useGlobalTransform = false;
         [SerializeField] float duration = 0.3f;
         [SerializeField] Transform[] original;
 
         public UnityEvent onComplete;
-
         
         public void Shuffle() 
         {
+            if (!gameObject.activeInHierarchy) return;
+
             var original_pos = new Vector3[original.Length];
             for (int i = 0; i < original.Length; i++)
             {
-                original_pos[i] = original[i].localPosition;
+                original_pos[i] = useGlobalTransform ? original[i].position : original[i].localPosition;
             }
 
             var clone = original.ToArray();
@@ -32,6 +34,7 @@ namespace Game.Utilities
                 foreach (var item in original)
                 {
                     item.TryGetComponent(out Node node);
+                    if (!node) node = item.GetComponentInChildren<Node>();
                     if (node) node.ReCenter();
                 }
                 onComplete.Invoke();
@@ -41,7 +44,7 @@ namespace Game.Utilities
                 var pos = original_pos[i];
                 var item = shuffledArray[i];
 
-                sequance.Insert(0, item.DOLocalMove(pos, duration)
+                sequance.Insert(0, (useGlobalTransform ? item.DOMove(pos, duration) : item.DOLocalMove(pos, duration))
                     .SetEase(Ease.OutCubic)
                 );
             }

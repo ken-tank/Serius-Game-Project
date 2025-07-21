@@ -24,10 +24,19 @@ public class ResetCounter : MonoBehaviour
                 count--;
             }
         }
+        else
+        {
+            SceneActions.RestartScene();
+        }
     }
 
     void Awake()
     {
+        if (SceneManager.GetActiveScene().name != level)
+        {
+            level = SceneManager.GetActiveScene().name;
+            count = 5;
+        }
         if (countText)
         {
             countText.SetText(count.ToString() + "x");

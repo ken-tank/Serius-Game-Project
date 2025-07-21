@@ -4,5 +4,37 @@
 		<property name="name">
 			<value>Master</value>
 		</property>
+		<relationship name="items">
+			<destination>{dba9ae75-f831-4fd3-9cdf-cb3a35654a30}</destination>
+			<destination>{6a9425b5-4f06-48d6-aee7-28f4105e5a0d}</destination>
+			<destination>{b57f50f1-546c-4860-a994-b79118372142}</destination>
+			<destination>{02d5ccf7-d829-4fb8-b27a-a31f20c65270}</destination>
+			<destination>{5ff36561-f244-4173-884c-624bed000a0e}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{dba9ae75-f831-4fd3-9cdf-cb3a35654a30}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{6a9425b5-4f06-48d6-aee7-28f4105e5a0d}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{b57f50f1-546c-4860-a994-b79118372142}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{02d5ccf7-d829-4fb8-b27a-a31f20c65270}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{5ff36561-f244-4173-884c-624bed000a0e}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
 	</object>
 </objects>
