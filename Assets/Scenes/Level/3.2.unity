@@ -196,11 +196,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565261760}
+  m_Father: {fileID: 1181814014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -766.0635, y: -48.210022}
+  m_AnchoredPosition: {x: -64.829956, y: 103.031006}
   m_SizeDelta: {x: 276, y: 202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209740579
@@ -216,7 +216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -740,11 +742,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 209740578}
-  - {fileID: 1241399446}
-  - {fileID: 587610318}
-  - {fileID: 1515592680}
+  m_Children: []
   m_Father: {fileID: 341786947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
@@ -821,11 +819,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565261760}
+  m_Father: {fileID: 1181814014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -803.40344, y: -214.21002}
+  m_AnchoredPosition: {x: -102.16986, y: -62.968994}
   m_SizeDelta: {x: 202, y: 276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587610319
@@ -841,7 +839,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1117,7 +1117,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1272844896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1278,8 +1278,8 @@ RectTransform:
   m_GameObject: {fileID: 798543837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 341786947}
   - {fileID: 1272844896}
@@ -1536,7 +1536,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1272844896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1699,7 +1699,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 209740578}
+  - {fileID: 1241399446}
+  - {fileID: 587610318}
+  - {fileID: 1515592680}
   m_Father: {fileID: 341786947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1776,11 +1780,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565261760}
+  m_Father: {fileID: 1181814014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -599.0635, y: -85.15405}
+  m_AnchoredPosition: {x: 102.170044, y: 66.086975}
   m_SizeDelta: {x: 202, y: 276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241399447
@@ -1796,7 +1800,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1937,7 +1943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -388}
+  m_AnchoredPosition: {x: 0, y: -345}
   m_SizeDelta: {x: 1332.098, y: 211.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272844897
@@ -1979,6 +1985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoStart: 0
+  useGlobalTransform: 0
   duration: 0.3
   original:
   - {fileID: 1380275082}
@@ -2179,7 +2186,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1272844896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2344,11 +2351,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565261760}
+  m_Father: {fileID: 1181814014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636.7235, y: -251.23505}
+  m_AnchoredPosition: {x: 64.51001, y: -99.99402}
   m_SizeDelta: {x: 278, y: 202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515592681
@@ -2364,7 +2371,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -2497,7 +2506,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1272844896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2737,7 +2746,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1272844896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2879,6 +2888,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 341786947}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

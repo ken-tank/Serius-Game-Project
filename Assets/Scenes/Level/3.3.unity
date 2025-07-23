@@ -6563,6 +6563,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: multyTarget.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: 'multyTarget.Array.data[0]'
+      value: 
+      objectReference: {fileID: 118741759}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: 'multyTarget.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1702031584}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: 'multyTarget.Array.data[2]'
+      value: 
+      objectReference: {fileID: 496394973}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

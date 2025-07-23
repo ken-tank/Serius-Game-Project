@@ -18,6 +18,7 @@ namespace Games.ConnectGame
         public Direction direction = Direction.Positive;
         public Node targetConnect;
         public bool multiConnect = false;
+        public bool allowInvalid = false;
         
         PointerEventData pointer;
         LineRenderer line;
@@ -60,13 +61,28 @@ namespace Games.ConnectGame
                 manager.secondSelected = null;
             }
             
-            if (connectedWith)
+            if (allowInvalid)
             {
-                Connect();
+                if (connectedWith)
+                {
+                    Connect();
+                }
+                else
+                {
+                    DestroyLine();
+                }
             }
             else
             {
-                DestroyLine();
+                if (!targetConnect || connectedWith == targetConnect)
+                {
+                    Connect();
+                }
+                else
+                {
+                    DestroyLine();
+                    connectedWith.Hover(false, Color.white);
+                }
             }
             DOTween.Kill(clickAnimationID);
             transform.DOScale(Vector3.one, 1f)

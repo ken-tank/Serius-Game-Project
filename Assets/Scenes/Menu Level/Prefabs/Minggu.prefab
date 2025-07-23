@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 2613266601156858281}
   - component: {fileID: 6057166970683242003}
   - component: {fileID: 364038518350483339}
+  - component: {fileID: 8605101200407774435}
   m_Layer: 5
   m_Name: Minggu
   m_TagString: Untagged
@@ -463,6 +464,26 @@ MonoBehaviour:
   onComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8605101200407774435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2852832063773352733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab01a469c48f07448bdc332b7b6a48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites: []
+  buttons:
+  - {fileID: 5338280807387973039}
+  - {fileID: 3083062891360973573}
+  - {fileID: 9142876213202083212}
+  - {fileID: 451281037130315419}
+  - {fileID: 4784588301292153331}
+  - {fileID: 2824979393319042658}
 --- !u!1 &4152617217746666665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,56 +1204,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 906955418077701453}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
 --- !u!114 &2824979393319042658 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 276064638694863036}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6321054591079950588}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &6321054591079950588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 276064638694863036}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &906955418077701453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6321054591079950588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 3465286685962602723, guid: e2485208071e3ed41b19947c988476b5, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2824979393319042658}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!224 &8218636426825538448 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
@@ -1389,56 +1373,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8068519351394216467}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
 --- !u!114 &3083062891360973573 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 1020537850504035803}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6504762733735060891}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &6504762733735060891 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 1020537850504035803}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8068519351394216467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6504762733735060891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 6937817954938267909, guid: 77abe9a831f6b5343aad9603b46045ea, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3083062891360973573}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!224 &9219744602642421495 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
@@ -1595,17 +1542,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7065502227368342975}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
 --- !u!114 &451281037130315419 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 2496073019167209541}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8561333911655669765}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}
@@ -1616,40 +1560,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 2496073019167209541}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8561333911655669765 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 2496073019167209541}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7065502227368342975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8561333911655669765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -4178046375966092550, guid: 06eea00aabec6114ea64d7da55ab611b, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 451281037130315419}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &6485911204310487890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1801,45 +1711,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7784279675429872719}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
---- !u!1 &1039969890141670162 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 6485911204310487890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7784279675429872719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039969890141670162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -6470460504253458178, guid: 012c025eaddc7df45a8171dac5559fca, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9142876213202083212}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!224 &3159315798298114174 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
@@ -1850,7 +1723,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 6485911204310487890}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039969890141670162}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}
@@ -2007,56 +1880,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3982998249198114940}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
 --- !u!224 &1683330546179230721 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 7387826624774956845}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3669017348040982381 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 7387826624774956845}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3982998249198114940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3669017348040982381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 4130640169021434097, guid: 6848d4d69fec4d84db3fadf32140beb6, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4784588301292153331}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &4784588301292153331 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 7387826624774956845}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3669017348040982381}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}
@@ -2213,56 +2049,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 563617016605583741}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
 --- !u!224 &2247089089800347741 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8204064399446616876, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 7995563368981531505}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4222635369853424433 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6083275656078563392, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
-  m_PrefabInstance: {fileID: 7995563368981531505}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &563617016605583741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4222635369853424433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6ce1d4950a2974fbc468436cd60006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -855298285791758126, guid: 06158d6fbae244a4182ee8ee5c151f59, type: 3}
-  onSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5338280807387973039}
-        m_TargetAssemblyTypeName: KenTank.Systems.UI.Buttons.IconButton, KenTank.Systems.UI.UIManager
-        m_MethodName: set_sprite
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &5338280807387973039 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2657282770994220766, guid: 688251e2ba203b44ca6f0e51bca952c8, type: 3}
   m_PrefabInstance: {fileID: 7995563368981531505}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4222635369853424433}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 443e3800f6db73e4a90770c8428ed046, type: 3}

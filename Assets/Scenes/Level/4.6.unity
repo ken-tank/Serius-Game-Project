@@ -626,6 +626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoStart: 1
+  useGlobalTransform: 0
   duration: 0.3
   original:
   - {fileID: 1183286123}
@@ -2185,7 +2186,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -2294,6 +2297,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2103064361}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: zoomSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 987647222916772540, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1609861433947763069, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5

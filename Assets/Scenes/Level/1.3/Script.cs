@@ -20,11 +20,12 @@ namespace Minggu1_3
             var index = Random.Range(0, images.Length);
             var target = images[index];
             var target_rect = target.GetComponent<RectTransform>();
-            var slot = Instantiate(slotRef, slotRef.transform.parent);
+            var slot = Instantiate(slotRef, target.transform.parent);
             var slot_rect = slot.GetComponent<RectTransform>();
             var nodes = images.ToArray().ShuffleItems().OrderByDescending(x => x == target).Take(nodeAmmount).ToArray();
             Node target_node = null;
             var node_instances = new List<Node>();
+            //slot.alphaThreshold.sprite = target.GetComponent<Image>().sprite;
             foreach (var item in nodes.ShuffleItems())
             {
                 var aa = Instantiate(nodesRef, nodesRef.transform.parent);

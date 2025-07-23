@@ -216,7 +216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 209740580}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -300,7 +302,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -855298285791758126, guid: 83aaad3c5cfe1d8468ad2a3421746790, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -434,7 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 438, y: -114.83}
+  m_AnchoredPosition: {x: 498, y: -113.48}
   m_SizeDelta: {x: 199.9886, y: 195.0571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253974456
@@ -1286,8 +1288,8 @@ RectTransform:
   m_GameObject: {fileID: 798543837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 341786947}
   - {fileID: 1272844896}
@@ -1427,7 +1429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1212.647, y: 83.00001}
+  m_AnchoredPosition: {x: 1003, y: -114.83}
   m_SizeDelta: {x: 199.9886, y: 145.9815}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &830774875
@@ -1712,7 +1714,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 1074954267}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1796,7 +1800,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6937817954938267909, guid: 3dde74a4595ebe54e98f59274b6c49be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1865,7 +1869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 1113551854}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1949,7 +1955,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -6470460504253458178, guid: 545ca84bc93d76b4ba5d12787f382804, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2018,7 +2024,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 1163644430}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -2102,7 +2110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4130640169021434097, guid: 3ecfde11e2a95c44aa4dc9e187e74f3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2403,7 +2411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 119.24797, y: 83}
+  m_AnchoredPosition: {x: 263, y: -105.5}
   m_SizeDelta: {x: 199.5826, y: 146.3876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1229716334
@@ -2573,7 +2581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -388}
+  m_AnchoredPosition: {x: 0.0033474, y: -363.46}
   m_SizeDelta: {x: 1332.098, y: 211.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272844897
@@ -2615,6 +2623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoStart: 0
+  useGlobalTransform: 0
   duration: 0.3
   original:
   - {fileID: 1229716333}
@@ -2623,6 +2632,8 @@ MonoBehaviour:
   - {fileID: 1854924767}
   - {fileID: 453205070}
   - {fileID: 830774874}
+  - {fileID: 253974455}
+  - {fileID: 1538926229}
   onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -2836,7 +2847,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 1423536778}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -2920,7 +2933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4178046375966092550, guid: 12c5f50e7483ebc458ab6b70c23db129, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2989,7 +3002,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 1483429007}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -3073,7 +3088,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3465286685962602723, guid: fed1cdbe41acc47499c429d1317677f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3128,7 +3143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 781.74, y: -114.83}
+  m_AnchoredPosition: {x: 754.94, y: -114.83}
   m_SizeDelta: {x: 199.9886, y: 195.0571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1538926230
@@ -3669,6 +3684,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 341786947}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

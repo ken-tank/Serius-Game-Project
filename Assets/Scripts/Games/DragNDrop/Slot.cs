@@ -7,6 +7,7 @@ using KenTank.Systems.UI.Procedural;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Games.DragNDrop
 {
@@ -14,6 +15,7 @@ namespace Games.DragNDrop
     {
         [Header("Attribute")]
         [SerializeField] ProceduralRoundedRectangle shape;
+        public Image alphaThreshold;
 
         [Header("Properties")]
         public bool allowInvalid;
@@ -35,6 +37,7 @@ namespace Games.DragNDrop
         {
             if (manager.selectedNode)
             {
+                //if (!CheckIsAlphaPoint(pointer)) return;
                 if (activeNode)
                 {
                     if (activeNode != manager.selectedNode)
@@ -61,6 +64,7 @@ namespace Games.DragNDrop
 
         public void OnPointerExit(PointerEventData data)
         {
+            //if (!CheckIsAlphaPoint(data)) return;
             if (manager.selectedNode)
             {
                 if (activeNode)
@@ -94,6 +98,57 @@ namespace Games.DragNDrop
             }));
 
             sequance.Play();
+        }
+
+        bool CheckIsAlphaPoint(PointerEventData eventData)
+        {
+            return true;
+            if (!alphaThreshold || !alphaThreshold.sprite) return true;
+
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                alphaThreshold.rectTransform, eventData.position, eventData.pressEventCamera, out Vector2 localPoint);
+
+            Rect rect = alphaThreshold.rectTransform.rect;
+
+            Vector2 uv = new Vector2(
+                (localPoint.x - rect.x) / rect.width,
+                (localPoint.y - rect.y) / rect.height
+            );
+
+            if (IsAlphaOpaque(alphaThreshold.sprite, uv))
+            {
+                Debug.Log("Klik mengenai area solid!");
+                return true;
+            }
+            else
+            {
+                Debug.Log("Klik di area transparan, abaikan.");
+                return false;
+            }
+        }
+
+        bool IsAlphaOpaque(Sprite sprite, Vector2 uv, float threshold = 0.1f)
+        {
+            if (sprite == null || sprite.texture == null)
+                return false;
+
+            if (!sprite.texture.isReadable)
+            {
+                Debug.LogWarning($"Texture '{sprite.texture.name}' not readable. Aktifkan 'Read/Write Enabled' di import settings.");
+                return false;
+            }
+
+            // Clamp UV
+            uv.x = Mathf.Clamp01(uv.x);
+            uv.y = Mathf.Clamp01(uv.y);
+
+            // Hitung posisi pixel di atlas
+            Rect texRect = sprite.textureRect;
+            int x = Mathf.FloorToInt(texRect.x + uv.x * texRect.width);
+            int y = Mathf.FloorToInt(texRect.y + uv.y * texRect.height);
+
+            Color pixel = sprite.texture.GetPixel(x, y);
+            return pixel.a >= threshold;
         }
 
         async void Awake()

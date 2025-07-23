@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6be0d916-9ede-4d5a-a965-e206e95d099a}">
+		<property name="assetPath">
+			<value>Dialog/minggu 3 (11)/minggu 3 (11)/aktifitas makan v1 new.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>23.952000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{21145dc6-5bb6-4d10-b5ac-6ea9c3e16991}</destination>
+		</relationship>
+	</object>
+</objects>

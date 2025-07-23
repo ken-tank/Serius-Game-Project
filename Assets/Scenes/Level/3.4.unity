@@ -213,6 +213,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1894946611}
     m_Modifications:
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -374,6 +378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1894946611}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -1108,7 +1116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4653932814348791077, guid: 05d7aaa43f0700843a22f94213f4b34b, type: 3}
+  m_Sprite: {fileID: -3674662720320665967, guid: e03c8801d27b1ec49b81781322fe3871, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1270,6 +1278,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1894946611}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -1636,6 +1648,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1894946611}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -2010,7 +2026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5858479730459764560, guid: 2c7e8eb8b090bf64da2c7962592d5297, type: 3}
+  m_Sprite: {fileID: 4653932814348791077, guid: 05d7aaa43f0700843a22f94213f4b34b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2179,6 +2195,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -2644,6 +2664,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -3412,6 +3436,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -4533,6 +4561,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -4658,6 +4690,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: multyTarget.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: 'multyTarget.Array.data[0]'
+      value: 
+      objectReference: {fileID: 532348277}
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: 'multyTarget.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1894946611}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

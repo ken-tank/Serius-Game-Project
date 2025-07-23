@@ -216,7 +216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -978,7 +980,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1260,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 628.0577, y: -105.5035}
+  m_AnchoredPosition: {x: 728.5047, y: -105.5035}
   m_SizeDelta: {x: 201.7321, y: 276.5424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784421803
@@ -1415,8 +1419,8 @@ RectTransform:
   m_GameObject: {fileID: 798543837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 341786947}
   - {fileID: 1272844896}
@@ -1729,7 +1733,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -1870,7 +1876,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -338}
-  m_SizeDelta: {x: 1332.098, y: 211.007}
+  m_SizeDelta: {x: 1196.1315, y: 211.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272844897
 MonoBehaviour:
@@ -1911,6 +1917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoStart: 0
+  useGlobalTransform: 0
   duration: 0.3
   original:
   - {fileID: 1380275082}
@@ -2116,7 +2123,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.0135, y: -105.5035}
+  m_AnchoredPosition: {x: 168.1029, y: -105.5035}
   m_SizeDelta: {x: 276.4053, y: 202.6544}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1380275083
@@ -2295,7 +2302,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 0}
+  alphaThreshold: {fileID: 0}
   allowInvalid: 0
+  allowMultiFilled: 0
   outlineColor: {r: 0, g: 0, b: 0, a: 0}
   outlineColorHighlight:
     serializedVersion: 2
@@ -2434,7 +2443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 887.07544, y: -105.5035}
+  m_AnchoredPosition: {x: 1027.7013, y: -105.5035}
   m_SizeDelta: {x: 277.06, y: 202.4923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548233628
@@ -2917,7 +2926,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 406.70392, y: -105.5035}
+  m_AnchoredPosition: {x: 466.9721, y: -105.5035}
   m_SizeDelta: {x: 201.7321, y: 276.5424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2062654887
@@ -3053,6 +3062,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 341786947}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

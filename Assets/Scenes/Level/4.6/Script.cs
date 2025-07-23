@@ -74,6 +74,7 @@ namespace Minggu4_6
                         targetNodes[index] = true;
                         Check();
                         slot.activeNode = null;
+                        //onComplete.Invoke();
                     });
                     trueNode.Add(nodes[i]);
                     targetNodes.Add(false);

@@ -27,6 +27,7 @@ namespace Games.DragNDrop
         PointerEventData pointer;
         Vector2 offset;
         Vector2 initialPos;
+        Transform initialParent;
         Canvas canvas;
         GraphicRaycaster graphicRaycaster;
 
@@ -72,7 +73,8 @@ namespace Games.DragNDrop
 
             if (isValid)
             {
-                transform.DOMove(selectedSlot.transform.position, 0.2f)
+                transform.SetParent(selectedSlot.transform);
+                transform.DOLocalMove(Vector3.zero, 0.2f)
                 .SetEase(Ease.OutQuad)
                 .SetId(idSnapPos);
                 selectedSlot.onFilled?.Invoke(this);
@@ -94,6 +96,10 @@ namespace Games.DragNDrop
                     });
                 };
                 
+                if (transform.parent != initialParent) 
+                {
+                    transform.SetParent(initialParent);
+                }
                 if (selectedSlot) selectedSlot = null;
             }
 
@@ -103,11 +109,13 @@ namespace Games.DragNDrop
         public void ReCenter() 
         {
             initialPos = transform.position;
+            initialParent = transform.parent;
         }
 
         async void Awake()
         {
             initialPos = transform.position;
+            initialParent = transform.parent;
             canvas = GetComponent<Canvas>();
             graphicRaycaster = GetComponent<GraphicRaycaster>();
 

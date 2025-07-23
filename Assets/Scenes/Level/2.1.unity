@@ -284,8 +284,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 576.6846, y: -236.58984}
-  m_SizeDelta: {x: 1153.3691, y: 473.1797}
+  m_AnchoredPosition: {x: 491.73914, y: -206.25215}
+  m_SizeDelta: {x: 983.4783, y: 412.5043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224271033
 MonoBehaviour:
@@ -652,8 +652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -314}
-  m_SizeDelta: {x: 1182.8115, y: 225.5434}
+  m_AnchoredPosition: {x: 0, y: -244}
+  m_SizeDelta: {x: 1133, y: 225.5434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406210026
 MonoBehaviour:
@@ -1533,8 +1533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -239.77734}
-  m_SizeDelta: {x: 1153.3691, y: 473.1797}
+  m_AnchoredPosition: {x: 0, y: -209.43964}
+  m_SizeDelta: {x: 983.4783, y: 412.5043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781216304
 MonoBehaviour:
@@ -2842,8 +2842,8 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  maxNodeShow: 12
-  nodePerLine: 6
+  maxNodeShow: 10
+  nodePerLine: 5
 --- !u!114 &1550780310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2996,6 +2996,7 @@ GameObject:
   - component: {fileID: 1731125607}
   - component: {fileID: 1731125609}
   - component: {fileID: 1731125608}
+  - component: {fileID: 1731125610}
   m_Layer: 5
   m_Name: Sprite
   m_TagString: Untagged
@@ -3060,6 +3061,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731125606}
   m_CullTransparentMesh: 1
+--- !u!114 &1731125610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731125606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &1783634673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3471,6 +3487,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1938286933}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

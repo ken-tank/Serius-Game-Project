@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 58a07e045b6ad614ab16c5d69cb88192
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5237025268324531005
+    second: LOGO TSU_0
+  - first:
+      213: 1312128077725737165
+    second: LOGO TSU_1
+  - first:
+      213: -419060620042294522
+    second: LOGO TSU_2
+  - first:
+      213: 7699041405962278008
+    second: LOGO TSU_3
+  - first:
+      213: 6437243220266713551
+    second: LOGO TSU_4
+  - first:
+      213: 7396628570041014576
+    second: LOGO TSU_5
+  - first:
+      213: -4232878317846256237
+    second: LOGO TSU_6
+  - first:
+      213: 8726422886004919591
+    second: LOGO TSU_7
+  - first:
+      213: 7446421345451955675
+    second: LOGO TSU_8
+  - first:
+      213: 8983315934345013631
+    second: LOGO TSU_9
+  - first:
+      213: 5031631906068555254
+    second: LOGO TSU_10
+  - first:
+      213: -6646151258246885935
+    second: LOGO TSU_11
+  - first:
+      213: 3771289674793993202
+    second: LOGO TSU_12
+  - first:
+      213: -1211973500682712478
+    second: LOGO TSU_13
+  - first:
+      213: -6359931539763019768
+    second: LOGO TSU_14
+  - first:
+      213: -5319423963822909717
+    second: LOGO TSU_15
+  - first:
+      213: 3814517120669688460
+    second: LOGO TSU_16
+  - first:
+      213: 6136257827751355868
+    second: LOGO TSU_17
+  - first:
+      213: 8620191220472309870
+    second: LOGO TSU_18
+  - first:
+      213: -5504777167013585265
+    second: LOGO TSU_19
+  - first:
+      213: 8251873927063116440
+    second: LOGO TSU_20
+  - first:
+      213: 1010989203480208933
+    second: LOGO TSU_21
+  - first:
+      213: 6198224468740178924
+    second: LOGO TSU_22
+  - first:
+      213: -1933890448560589270
+    second: LOGO TSU_23
+  - first:
+      213: 7507452574934133127
+    second: LOGO TSU_24
+  - first:
+      213: 7032181416927810188
+    second: LOGO TSU_25
+  - first:
+      213: -3229776041274223924
+    second: LOGO TSU_26
+  - first:
+      213: -6042139089884362365
+    second: LOGO TSU_27
+  - first:
+      213: -3437367520083582343
+    second: LOGO TSU_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOGO TSU_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5330
+        width: 3746
+        height: 2066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c485c1f3495257b0800000000000000
+      internalID: -5237025268324531005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2556
+        height: 5650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a8a4e88d953210800000000000000
+      internalID: 1312128077725737165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_2
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 69
+        width: 4306
+        height: 7313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b260b16923f2af0800000000000000
+      internalID: -419060620042294522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_3
+      rect:
+        serializedVersion: 2
+        x: 8617
+        y: 3128
+        width: 1993
+        height: 2796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874d7611e5d78da60800000000000000
+      internalID: 7699041405962278008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_4
+      rect:
+        serializedVersion: 2
+        x: 10940
+        y: 3089
+        width: 1939
+        height: 2873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc10ac45a9ea55950800000000000000
+      internalID: 6437243220266713551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_5
+      rect:
+        serializedVersion: 2
+        x: 13285
+        y: 3089
+        width: 1839
+        height: 2835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039dcc4de7a16a660800000000000000
+      internalID: 7396628570041014576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_6
+      rect:
+        serializedVersion: 2
+        x: 8622
+        y: 1874
+        width: 350
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395225fb89bc145c0800000000000000
+      internalID: -4232878317846256237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_7
+      rect:
+        serializedVersion: 2
+        x: 9146
+        y: 1874
+        width: 90
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d8928516b7a1970800000000000000
+      internalID: 8726422886004919591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_8
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 1868
+        width: 386
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5dc87c2c0075760800000000000000
+      internalID: 7446421345451955675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_9
+      rect:
+        serializedVersion: 2
+        x: 9940
+        y: 1874
+        width: 411
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79adb32f362bac70800000000000000
+      internalID: 8983315934345013631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_10
+      rect:
+        serializedVersion: 2
+        x: 10758
+        y: 1868
+        width: 337
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5ecb15f82f3d540800000000000000
+      internalID: 5031631906068555254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_11
+      rect:
+        serializedVersion: 2
+        x: 11272
+        y: 1874
+        width: 288
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddcda8b4a024c3a0800000000000000
+      internalID: -6646151258246885935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_12
+      rect:
+        serializedVersion: 2
+        x: 11744
+        y: 1874
+        width: 336
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c1336aff465430800000000000000
+      internalID: 3771289674793993202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_13
+      rect:
+        serializedVersion: 2
+        x: 12220
+        y: 1874
+        width: 411
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ace9eb5843e2fe0800000000000000
+      internalID: -1211973500682712478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_14
+      rect:
+        serializedVersion: 2
+        x: 12797
+        y: 1874
+        width: 372
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8004f9006fbfcb7a0800000000000000
+      internalID: -6359931539763019768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_15
+      rect:
+        serializedVersion: 2
+        x: 13348
+        y: 1868
+        width: 386
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be692a2a61c9d26b0800000000000000
+      internalID: -5319423963822909717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_16
+      rect:
+        serializedVersion: 2
+        x: 13915
+        y: 1874
+        width: 370
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a92f6c13efe430800000000000000
+      internalID: 3814517120669688460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_17
+      rect:
+        serializedVersion: 2
+        x: 14427
+        y: 1874
+        width: 411
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd56459abfd582550800000000000000
+      internalID: 6136257827751355868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_18
+      rect:
+        serializedVersion: 2
+        x: 15005
+        y: 1874
+        width: 90
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6861384e3211a770800000000000000
+      internalID: 8620191220472309870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_19
+      rect:
+        serializedVersion: 2
+        x: 8667
+        y: 1097
+        width: 354
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e5978055a1b93b0800000000000000
+      internalID: -5504777167013585265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_20
+      rect:
+        serializedVersion: 2
+        x: 9417
+        y: 1103
+        width: 371
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a97e9cd9b848270800000000000000
+      internalID: 8251873927063116440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_21
+      rect:
+        serializedVersion: 2
+        x: 10183
+        y: 1103
+        width: 90
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5266139f251c70e00800000000000000
+      internalID: 1010989203480208933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_22
+      rect:
+        serializedVersion: 2
+        x: 10644
+        y: 1103
+        width: 411
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce384619054840650800000000000000
+      internalID: 6198224468740178924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_23
+      rect:
+        serializedVersion: 2
+        x: 11426
+        y: 1103
+        width: 288
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26760b12e07925e0800000000000000
+      internalID: -1933890448560589270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_24
+      rect:
+        serializedVersion: 2
+        x: 12103
+        y: 1103
+        width: 335
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7896a093754df2860800000000000000
+      internalID: 7507452574934133127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_25
+      rect:
+        serializedVersion: 2
+        x: 12793
+        y: 1097
+        width: 337
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d5189db3579160800000000000000
+      internalID: 7032181416927810188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_26
+      rect:
+        serializedVersion: 2
+        x: 13512
+        y: 1103
+        width: 89
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc258c37dc78d23d0800000000000000
+      internalID: -3229776041274223924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_27
+      rect:
+        serializedVersion: 2
+        x: 13980
+        y: 1103
+        width: 350
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389c0f7a282062ca0800000000000000
+      internalID: -6042139089884362365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO TSU_28
+      rect:
+        serializedVersion: 2
+        x: 14688
+        y: 1103
+        width: 402
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e3f2d3740c40d0800000000000000
+      internalID: -3437367520083582343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LOGO TSU_0: -5237025268324531005
+      LOGO TSU_1: 1312128077725737165
+      LOGO TSU_10: 5031631906068555254
+      LOGO TSU_11: -6646151258246885935
+      LOGO TSU_12: 3771289674793993202
+      LOGO TSU_13: -1211973500682712478
+      LOGO TSU_14: -6359931539763019768
+      LOGO TSU_15: -5319423963822909717
+      LOGO TSU_16: 3814517120669688460
+      LOGO TSU_17: 6136257827751355868
+      LOGO TSU_18: 8620191220472309870
+      LOGO TSU_19: -5504777167013585265
+      LOGO TSU_2: -419060620042294522
+      LOGO TSU_20: 8251873927063116440
+      LOGO TSU_21: 1010989203480208933
+      LOGO TSU_22: 6198224468740178924
+      LOGO TSU_23: -1933890448560589270
+      LOGO TSU_24: 7507452574934133127
+      LOGO TSU_25: 7032181416927810188
+      LOGO TSU_26: -3229776041274223924
+      LOGO TSU_27: -6042139089884362365
+      LOGO TSU_28: -3437367520083582343
+      LOGO TSU_3: 7699041405962278008
+      LOGO TSU_4: 6437243220266713551
+      LOGO TSU_5: 7396628570041014576
+      LOGO TSU_6: -4232878317846256237
+      LOGO TSU_7: 8726422886004919591
+      LOGO TSU_8: 7446421345451955675
+      LOGO TSU_9: 8983315934345013631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

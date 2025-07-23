@@ -791,6 +791,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1192,6 +1196,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1591,7 +1599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -316.1521}
+  m_AnchoredPosition: {x: 0, y: -249}
   m_SizeDelta: {x: 1172.3, y: 289.0466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105707435
@@ -1633,6 +1641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoStart: 1
+  useGlobalTransform: 0
   duration: 0.3
   original:
   - {fileID: 1764007976}
@@ -1872,6 +1881,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
@@ -2672,6 +2685,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 532348277}
     m_Modifications:
     - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
+      propertyPath: allowInvalid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837169449978295684, guid: 12f6afd381740ee4da636ad1dde322fb, type: 3}
       propertyPath: target.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2801,6 +2818,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865853303}
     m_Modifications:
+    - target: {fileID: 148291918296042817, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 532348277}
     - target: {fileID: 3298653463436847275, guid: 0a73a2b36644bc14fa31cd4cd04a8c9b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
