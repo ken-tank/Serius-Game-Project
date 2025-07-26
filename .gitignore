@@ -123,3 +123,6 @@ Assets/Plugins/FMOD/**/Info.plist text eol=lf
 # If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
 # Log files can be ignored.
 fmod_editor.log
+/*.7z
+/*.zip
+/*.rar
